@@ -45,9 +45,7 @@ with open(sys.argv[1]) as f:
                         off_i, off_j = directions[d]
                         if -1 < i+off_i < len(grid) and -1 < j+off_j < len(grid[i]):
                             chars.append(grid[i+off_i][j+off_j])
-                    print(sorted(chars))
                     if sorted(chars) == ['M', 'S']:
-                        print('hit')
                         hits += 1
                 if hits == 2:
                     s += 1
