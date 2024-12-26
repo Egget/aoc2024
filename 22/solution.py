@@ -40,5 +40,4 @@ with open(sys.argv[1]) as f:
         sl = sum(l)
         if sl > bananas:
             bananas = sl
-            print(c, l)
     print('Part 2:', bananas)
