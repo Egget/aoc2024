@@ -1,8 +1,6 @@
 import sys
 from itertools import permutations
 
-
-
 with open(sys.argv[1]) as f:
     grid = []
     for r in f:
