@@ -41,7 +41,7 @@ with open(sys.argv[1]) as f:
 
     max_count = 0
     max_secs = 0
-    for n in range(10000):
+    for n in range(101*103):
         pos = set()
         for r in robots:
             (x,y) = move(r, 1)
